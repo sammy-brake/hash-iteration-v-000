@@ -5,10 +5,10 @@
 # suite_d: "Charlie Chaplin", 
 # suite_e: "Crumpet the Elf"
 # }
-
+ winner = ""
 def select_winner(passengers)
   # add the code snippet here!
-  winner = ""
+ 
   passengers.each do |suite, name|
     if suite == :suite_a && name.start_with?("A")
       winner = name 
@@ -16,3 +16,4 @@ def select_winner(passengers)
    
 end
 end 
+winner 
